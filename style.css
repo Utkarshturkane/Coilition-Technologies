@@ -1,0 +1,305 @@
+
+@import url("reset.css");
+
+.first{
+    position: relative;
+    height: 781px;
+}
+
+body .background{
+    width: 100%;
+    max-width: 100%;
+}
+
+.top{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.top img{
+    margin-left: 342px;
+}
+
+.top nav{
+    margin-left: 692px;
+}
+
+.navigation a{
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 20px;
+color: #fefeff;
+font-weight: 900;
+font-style: italic;
+font-family: Lato;
+} 
+
+.navigation a:nth-child(2){
+    margin-left: 46px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second nav a{
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 20px;
+color: #414f6b;
+font-weight: 900;
+font-style: italic;
+font-family: "Lato";
+}
+
+.second nav a:nth-child(2){
+    margin-left: 49px;
+}
+
+.third img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.third h2{
+font-size: 136px;
+color: #687894;
+font-weight: 700;
+font-family: "Oswald";
+}
+
+.third h4{
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+
+.third p{
+width: 814px;
+height: 339px;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+font-weight: 300;
+font-family: "Lato";
+}
+
+.third{
+    position: relative;
+    height: 674px;
+}
+
+.third .text{
+    position: absolute;
+    top: 59px;
+    left: 327px;
+}
+
+.text{
+    display: flex;
+}
+
+.text-inside h4{
+    position: absolute;
+    top: 73px;
+    left: 132px;
+}
+
+.text-inside p{
+    position: absolute;
+    top: 140px;
+    left: 70px;
+}
+
+.carousel{
+    position: relative;
+}
+.carousel img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel .owl-demo img{
+    width: 200px;
+    height: 135px;
+}
+
+.carousel .owl-demo{
+    position: absolute;
+    width: 910px;
+    top: 20px;
+    left: 345px;
+}
+
+.two-climb h2{
+    font-size: 136px;
+    color: #a0a7b5;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+
+.two-climb h4{
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald";
+    position: absolute;
+    left: 469px;
+    top: 70px;
+}
+
+.two-climb p{
+    width: 611px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Lato";
+    margin-left: 94px;
+}
+
+.two-climb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tab{
+    background-color: #414f6b;
+    margin-top: 27px;
+
+}
+
+.tab a{
+    font-size: 20px;
+    color: #b0b4be;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-decoration: none;
+    padding: 10px 24px 8px 20px;
+    display: inline-block;
+}
+
+.tab a:nth-child(1){
+    margin-left: 320px;
+}
+
+.tab a:hover{
+    color: #414f6b;
+    background-color: #afb3bd;
+    text-decoration: underline;
+}
+
+.background-content{
+    position: relative;
+}
+
+.background-content img{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.table tr td{
+    text-align: center;
+}
+
+ .table tr:nth-child(1) th{
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald";
+    position: relative;
+    left: -84px;
+    top: 16px;
+}
+
+
+.table tr:nth-child(n+1) td{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Lato";
+}
+
+.table{
+    width: 361px;
+    height: 219px;
+    background-color: #ffffffdb;
+    position: absolute;
+    top: 102px;
+    left: 351px;
+}
+
+.down h4{
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #63769d;
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414f6b;
+}
+
+footer p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #63769d;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Lato";
+}
+
+footer .down{
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+    height: 557.8px;
+}
+
+/* Sorry I counld not complete media queries it will take more time. 
+Media Queries 
+
+@media screen and (min-width: 480px) {
+    
+    .top img {
+        margin-left: 50px;
+        width: 40%;
+    }
+
+    .top nav {
+        margin-left: 159px;
+    }
+
+    .first {
+        height: 241.55px;
+    }
+
+    .second img{
+        width: 30%;
+    }
+    .third{
+        height: 208px;
+    }
+}
+
+*/
